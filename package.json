@@ -1,0 +1,17 @@
+{
+  "name": "10c",
+  "version": "1.0.0",
+  "description": "automate two scenarios",
+  "main": "index.js",
+  "repository": "https://github.com/rzegnam/10c.git",
+  "author": "rzegnam@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.0",
+    "cypress": "^5.2.0"
+  },
+  "scripts":{    
+    "cypress:open": "yarn run cypress open",
+    "cypress:run": "yarn run cypress run"
+  }
+}
